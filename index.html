@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>College Static Web Page</title> 
+<style> 
+body { 
+font-family: Arial, sans-serif; 
+margin: 0; 
+background-color: #f5f5f5; 
+} 
+header { 
+        background-color: #003366; 
+        color: white; 
+        padding: 15px; 
+        text-align: center; 
+    } 
+    header img { 
+        height: 50px; 
+        vertical-align: middle; 
+        margin-right: 10px; 
+    } 
+    nav { 
+        background-color: #005599; 
+        overflow: hidden; 
+    } 
+    nav a { 
+        float: left; 
+        display: block; 
+        color: white; 
+        text-align: center; 
+        padding: 10px 15px; 
+        text-decoration: none; 
+    } 
+    nav a:hover { 
+        background-color: #003366; 
+    } 
+    .container { 
+        max-width: 1000px; 
+        margin: auto; 
+        background: white; 
+        padding: 20px; 
+        border: 1px solid #ccc; 
+    } 
+    h2 { 
+        color: #003366; 
+        margin-top: 0; 
+    } 
+    table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        margin-top: 10px; 
+    } 
+    table, th, td { 
+        border: 1px solid #999; 
+    } 
+    th, td { 
+        padding: 8px; 
+        text-align: left; 
+    } 
+    th { 
+        background-color: #005599; 
+        color: white; 
+    } 
+    .gallery { 
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px; 
+    } 
+    .gallery img { 
+        width: 100%; 
+        height: 120px; 
+        object-fit: cover; 
+        border: 1px solid #ccc; 
+    } 
+    .recruiters img { 
+        height: 50px; 
+        margin: 5px; 
+        border: 1px solid #ccc; 
+        background: white; 
+        padding: 5px; 
+    } 
+    footer { 
+        background-color: #003366; 
+        color: white; 
+        text-align: center; 
+        padding: 10px; 
+        margin-top: 20px; 
+    } 
+</style> 
+</head> 
+<body> 
+ 
+<header> 
+    <img src="logo.png" alt="College Logo"> 
+    <span style="font-size: 24px;">Marwadi University</span> 
+</header> 
+ 
+<nav> 
+    <a href="#vision">Vision</a> 
+    <a href="#mission">Mission</a> 
+    <a href="#psos">PSOs</a> 
+    <a href="#courses">Courses</a> 
+    <a href="#gallery">Gallery</a> 
+    <a href="#recruiters">Recruiters</a> 
+</nav> 
+ 
+<div class="container"> 
+ 
+    <section id="vision"> 
+        <h2>Vision</h2> 
+        <p>To be a premier institution providing excellence in education, research, and 
+innovation with a commitment to societal development.</p> 
+    </section> 
+ 
+    <section id="mission"> 
+        <h2>Mission</h2> 
+        <ul> 
+            <li>Provide quality technical education.</li> 
+            <li>Foster innovation and entrepreneurship.</li> 
+            <li>Develop socially responsible citizens.</li> 
+        </ul> 
+    </section> 
+ 
+    <section id="psos"> 
+        <h2>Program Specific Outcomes (PSOs)</h2> 
+        <ol> 
+            <li>Apply engineering knowledge to solve real-world problems.</li> 
+            <li>Design and develop software solutions.</li> 
+            <li>Work effectively in multidisciplinary teams.</li> 
+        </ol> 
+    </section> 
+ 
+    <section id="courses"> 
+        <h2>Courses Offered</h2> 
+        <table> 
+            <tr> 
+                <th>Course</th> 
+                <th>Duration</th> 
+                <th>Specializations</th> 
+            </tr> 
+            <tr> 
+                <td>B.Tech Computer Engineering</td> 
+                <td>4 Years</td> 
+                <td>AI, ML, Data Science</td> 
+            </tr> 
+            <tr> 
+                <td>B.Tech IT</td> 
+                <td>4 Years</td> 
+                <td>Cyber Security, Cloud Computing</td> 
+            </tr> 
+            <tr> 
+                <td>M.Tech Computer Engineering</td> 
+                <td>2 Years</td> 
+                <td>Advanced AI, Big Data</td> 
+            </tr> 
+        </table> 
+    </section> 
+ 
+    <section id="gallery"> 
+        <h2>Gallery</h2> 
+        <div class="gallery"> 
+            <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1"> 
+            <img src="https://via.placeholder.com/300x200?text=Event+2" alt="Event 2"> 
+            <img src="https://via.placeholder.com/300x200?text=Event+3" alt="Event 3"> 
+            <img src="https://via.placeholder.com/300x200?text=Event+4" alt="Event 4"> 
+        </div> 
+    </section> 
+ 
+    <section id="recruiters"> 
+        <h2>Top Recruiters</h2> 
+        <div class="recruiters"> 
+            <img src="https://via.placeholder.com/150x60?text=Google" alt="Google"> 
+            <img src="https://via.placeholder.com/150x60?text=Infosys" alt="Infosys"> 
+            <img src="https://via.placeholder.com/150x60?text=TCS" alt="TCS"> 
+            <img src="https://via.placeholder.com/150x60?text=Amazon" alt="Amazon"> 
+        </div> 
+    </section> 
+ 
+</div> 
+ 
+<footer> 
+    &copy; 2025 Marwadi University 
+</footer> 
+ 
+</body> 
+</html>
